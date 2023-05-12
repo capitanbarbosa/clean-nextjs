@@ -1,6 +1,6 @@
 export default function Client() {
   const handleClick = async () => {
-    fetch("https://186.155.197.158/notify", {
+    fetch("https://186.155.197.158:3000/notify", {
       // mode: "no-cors",
       headers: {
         Origin: "https://clean-nextjs-sage.vercel.app/",

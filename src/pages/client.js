@@ -3,7 +3,7 @@ export default function Client() {
     fetch("https://186.155.197.158/notify", {
       // mode: "no-cors",
       headers: {
-        Origin: "https://wizlabs.co",
+        Origin: "https://clean-nextjs-sage.vercel.app/",
       },
     })
       .then((response) => {

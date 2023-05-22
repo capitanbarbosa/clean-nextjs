@@ -17,7 +17,7 @@ export default function Client() {
 
   return (
     <div>
-      <button onClick={handleClick}>Send request to server</button>
+      <button onClick={handleClick}>Send request to sserver</button>
     </div>
   );
 }
